@@ -1,3 +1,4 @@
+# Make Dart the primary language
 *.dart linguist-language=Dart
 
 # Suppress C++
@@ -7,6 +8,20 @@
 *.hpp linguist-vendored
 *.h linguist-vendored
 
+# Suppress C
+*.c linguist-vendored
+
+# Suppress Swift
+*.swift linguist-vendored
+
+# Suppress Makefiles
+Makefile linguist-vendored
+*.mk linguist-vendored
+
 # Suppress CMake
 CMakeLists.txt linguist-vendored
 *.cmake linguist-vendored
+
+# Suppress HTML
+*.html linguist-vendored
+*.htm linguist-vendored
